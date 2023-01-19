@@ -1,4 +1,4 @@
-# Notec
+# Note
 popup script => runs when the extension is power on
 content script => run in the context of the particular page
 event script => script that runs in background
