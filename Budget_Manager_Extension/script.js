@@ -3,12 +3,6 @@ chrome.contextMenus.create({
   "contexts": ["selection"],
   "id": "Manager"
 });
-
-
-
-
-
-
 //-----------function to check if the selection is integer----------------------------------------------------------------------------------------
 function isInt(value) {
   return !isNaN(value) &&
