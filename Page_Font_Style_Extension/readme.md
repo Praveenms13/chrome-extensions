@@ -12,3 +12,8 @@ Execution Environment of Content Script :
 - Also Reverse as before.
 - js running on the web page can't access the variables or fun() that is defined on the content script.
 - when there is a button with click event which give alerts in both (extension and the web page) is pressed na both the alert is called. 
+
+
+
+content scripts -> msg(show) event page
+content scripts <- msg(change red) popup script(index.js)
