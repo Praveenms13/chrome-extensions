@@ -23,7 +23,7 @@ Languages used in this project are :
 | Extension name | Description |
 | ------ | ------ |
 | Budget Manager | This Extension is used to keep track of your online spandings and purchase, after exery spendings you must add the spending amount to this extension or you can just select the amount with the cursor, then right click => the options tab will open => select `add to manager` then the amount will be added to the extension.<br> You can also set Spending Limit in the options menu of this extension, so if you exceeded the limit you'll get the notification, stating that you've exceeded the limit and you can reset the limit or reset the spending amount.<br>![App Screenshot](images/bm1.png) ![App Screenshot](images/bm2.png) ![App Screenshot](images/bm3.png) ![App Screenshot](images/bm4.png) |
-| Page Font Style | Something is wrong. Check response for error message. |
+| Page Font Style | Page Font Style extension will only be working on some pages which is listed in `content_script` in manifest file, the site url which is not listed in `content_script` cannot use this extension and it'll be grayed out. So basically this extension can change the color and font style of a text in a website by accessing it's `DOM`. At my case I've listed 4 sites where this extensions will work.<br>![App Screenshot](images/pf1.png) ![App Screenshot](images/pf2.png) ![App Screenshot](images/pf3.png)  |
 | Wikkit | Bad request format or not all attributes are provided. |
 | Speakit | Bad request format or not all attributes are provided. |
 

@@ -1,0 +1,42 @@
+{
+  "manifest_version": 2,
+  "name": "Page Font Extension",
+  "version": "1.0",
+  "description": "Change the font of the page",
+  "icons": {
+    "16": "Images/icon16.png",
+    "48": "Images/icon48.png",
+    "128": "Images/icon128.png"
+  },
+  "page_action": {
+    "default_icon": "Images/icon16.png",
+    "default_popup": "index.html",
+    "default_title": "Page Font Extension"
+  },
+
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://traversymedia.com/*",
+        "https://developer.chrome.com/*",
+        "https://www.instagram.com/*",
+        "https://www.pvrcinemas.com/*"
+      ],
+      "js": ["contentPage.js", "jquery.js"],
+      "css": ["contentPage.css"]
+    }
+  ],
+
+  "permissions": [
+    "tabs",
+    "https://traversymedia.com/*",
+    "https://developer.chrome.com/*",
+    "https://www.instagram.com/*",
+    "https://www.pvrcinemas.com/*"
+  ]
+}

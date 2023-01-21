@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Wikkit",
+  "version": "1.0",
+  "description": "Wikkit is a simple extension that allows you to search Wikipedia from the address bar.",
+  "icons": {
+    "16": "Images/icon16.png",
+    "48": "Images/icon48.png",
+    "128": "Images/icon128.png"
+  },
+
+  "background": {
+    "scripts": ["script.js"],
+    "persistent": false
+  },
+
+  "permissions": ["tabs", "contextMenus"]
+}
