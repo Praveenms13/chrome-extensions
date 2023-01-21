@@ -22,7 +22,7 @@ Languages used in this project are :
 
 | Extension name | Description |
 | ------ | ------ |
-| Budget Manager | This Extension is used to keep track of your online spandings and purchase, after exery spendings you must add the spending amount to this extension or you can just select the amount with the cursor, then right click => the options tab will open => select `add to manager` then the amount will be added to the extension.<br> You can also set Spending Limit in the options menu of this extension, so if you exceeded the limit you'll get the notification, stating that you've exceeded the limit and you can reset the limit or reset the spending amount.![App Screenshot](images/bm1.png) ![App Screenshot](images/bm2.png) ![App Screenshot](images/bm3.png) ![App Screenshot](images/bm4.png) |
+| Budget Manager | This Extension is used to keep track of your online spandings and purchase, after exery spendings you must add the spending amount to this extension or you can just select the amount with the cursor, then right click => the options tab will open => select `add to manager` then the amount will be added to the extension.<br> You can also set Spending Limit in the options menu of this extension, so if you exceeded the limit you'll get the notification, stating that you've exceeded the limit and you can reset the limit or reset the spending amount.<br>![App Screenshot](images/bm1.png) ![App Screenshot](images/bm2.png) ![App Screenshot](images/bm3.png) ![App Screenshot](images/bm4.png) |
 | Page Font Style | Something is wrong. Check response for error message. |
 | Wikkit | Bad request format or not all attributes are provided. |
 | Speakit | Bad request format or not all attributes are provided. |
