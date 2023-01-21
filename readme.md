@@ -1,4 +1,4 @@
-# Chrome Extensions
+# Chrome Extensions, made with chrome API's
 
 
 ## Appendix
